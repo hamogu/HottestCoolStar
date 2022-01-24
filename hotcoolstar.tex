@@ -240,7 +240,7 @@
 
 %% Mark off the abstract in the ``abstract'' environment.
 \begin{abstract}
-Cool stars on the main sequence generate X-rays from coronal activity, powered by a convective dynamo. With increasing temperature, the convective envelope becomes smaller and X-ray emission fainter. We present Chandra/HRC-I observations of four single stars with early A spectral types. The coolest star of this sample, $\tau^3$~Eri, is detected with $\log(L_X/L_\mathrm{bol})=-7.6$, while $\delta$~Leo, $\beta$~Leo, and $\iota$~Cen remain undetected with upper limits $\log(L_X/L_\mathrm{bol})<-8.5$. The drop in X-ray activity thus occurs a in very narrow range of no more than $\Delta T_\mathrm{eff}=200$~K and matches the end of activity in the \ion{C}{3} and \ion{O}{6} transition region lines.
+Cool stars on the main sequence generate X-rays from coronal activity, powered by a convective dynamo. With increasing temperature, the convective envelope becomes smaller and X-ray emission fainter. We present Chandra/HRC-I observations of four single stars with early A spectral types. Only the coolest star of this sample, $\tau^3$~Eri ($T_\mathrm{eff}\approx8\,,210$\,K), is detected with $\log(L_X/L_\mathrm{bol})=-7.6$, while the three hotter stars ($T_\mathrm{eff}\geq8\,,300$\,K), namely $\delta$~Leo, $\beta$~Leo, and $\iota$~Cen, remain undetected with upper limits $\log(L_X/L_\mathrm{bol})<-8.4$. The drop in X-ray emission thus occurs a in very narrow range of effective temperatures ($\sim 100$\,K) and matches the end of activity in the \ion{C}{3} and \ion{O}{6} transition region lines.
 
 \end{abstract}
 
@@ -269,7 +269,7 @@ Cool stars on the main sequence generate X-rays from coronal activity, powered b
 
 \section{Introduction} \label{sec:intro}
 Stars across the main-sequence (MS) produce X-ray emission in two fundamentally different mechanisms. Cool stars have convective envelopes, 
-which can produce differential rotation and convective turbulence, giving rise to strong magnetic fields through the dynamo mechanism \citep{2017LRSP...14....4B}. These magnetic fields then help sustain the coronal activities around these stars.
+which can produce differential rotation and convective turbulence, giving rise to strong magnetic fields through the dynamo mechanism \citep{2017LRSP...14....4B}. These magnetic fields then help sustain coronal activity around these stars.
 Essentially all close-by late-type stars are X-ray emitters \citep{2004A&A...417..651S}. On the other end of the MS the most massive stars have fast winds. Instabilities in the winds heat the gas to a few MK. Again, nearly all of them are X-ray emitters \citep{1996A&AS..118..481B,1997A&A...322..167B}. Stars from mid-A to B operate neither mechanism: Their winds are too weak to produce detectable X-ray emission and their atmospheres are radiatively dominated and do not drive a turbulent convective dynamo. Mid-A to B-type stars thus are X-ray dark \citep{1997A&A...318..215S}.
 
 Nevertheless, some A and B-type stars  are seen in the ROSAT
@@ -278,7 +278,7 @@ companions. Due to the shorter lifetime of the A-type star, the companion is
 still at an early stage of its evolution when the A-star is on the MS and thus the companion is X-ray bright. The RASS
 catalog contains 312 bright A-type stars. This is a detection rate of 10-15\% \citep{2007A&A...475..677S}.  Closer examination confirms that most of these sources turn out to be multiple \citep{2000A&A...359..227H,2003A&A...407.1067S}.
 
-However, star spots with a low amplitude 0.05\% have been found on Vega \citep{2015A&A...577A..64B} together with a weak (disk-averaged line-of-sight component $< 1$~G) magnetic field \citep{2009A&A...500L..41L,2010A&A...523A..41P}.
+However, star spots leading to photometric variability with a low amplitude of 0.05\% have been found for Vega \citep{2015A&A...577A..64B} together with a weak (disk-averaged line-of-sight component $< 1$~G) magnetic field \citep{2009A&A...500L..41L,2010A&A...523A..41P}.
 Also, recent studies with \emph{Kepler} and \emph{TESS} do indeed find rotational modulation of early A-type stars \citep{2011MNRAS.415.1691B,2017MNRAS.467.1830B,
 2019MNRAS.487.4695S} and sometimes signatures of what seem to be magnetic flares \citep{2012MNRAS.423.3420B}. However, the latter can usually be attributed to binarity or artifacts such as contamination of the lightcurve by nearby sources \citep{2017MNRAS.466.3060P}.
 
@@ -291,10 +291,12 @@ transition between stars with and without a corona happens within 100~K and that
 
 \citet{2002ApJ...579..800S} also analyzed archival \emph{ROSAT} observations
 and find X-ray emission only for stars below 8200~K. However, the X-ray sensitivity was not very high by modern standards. 
-In this paper, we present new \emph{Chandra}/HRC-I observations that are about an order of magnitude more sensitive. \citet{2008ApJ...685..478N} extend the list of UV observations and do find  C\,{\sc iii} and O\,{\sc vi} in hotter sources, however, in those cases, the emission is better explained by late-type companions.
-To avoid the problem of unresolved companions, we concentrate on well-studied A stars within 30~pc, where spectroscopy and recent planet searches with the radial-velocity method \citep[e.g.][]{2021AJ....161..157H}, direct imaging \citep[e.g.][]{2013ApJ...776....4N,2017AJ....154..245M}, and the study of anomalous GAIA proper motion \citep{2019A&A...623A..72K} essentially rule out the presence of a late-type stellar companion.
+In this paper, we present new \emph{Chandra}/HRC-I observations that are about an order of magnitude more sensitive for the stars in the \citet{2002ApJ...579..800S} sample \textbf{that previously only had \emph{ROSAT} data. 
+To avoid the problem of unresolved companions, we limit} the new observations to well-studied A stars within 30~pc
+where spectroscopy and recent planet searches with the radial-velocity method \citep[e.g.][]{2021AJ....161..157H}, direct imaging \citep[e.g.][]{2013ApJ...776....4N,2017AJ....154..245M}, and the study of anomalous GAIA proper motion \citep{2019A&A...623A..72K} essentially rule out the presence of a late-type stellar companion, i.e., our target sample comprises only bona fide single stars.
+\citet{2008ApJ...685..478N} extend the list of UV observations and do find  C\,{\sc iii} and O\,{\sc vi} in hotter sources, however, in those cases, the emission is better explained by late-type companions.
 
-There are two special classes of A-type stars where X-ray emission is commonly observed: (1) Chemically peculiar Ap \citep{1997A&A...323..121B,2011A&A...531A..58R} stars have magnetic fields presumably strong enough to funnel a wind into the equatorial plane where it shocks, and (2) pre-main sequence stars \citep[Herbig Ae stars, e.g.][]{2004ApJ...614..221S,2020ApJ...888...15S,2007A&A...468..541T,2009A&A...494.1041G}, some of which even show magnetically collimated jets. Both classes are markedly different in magnetic properties and power sources available for X-ray generation and are not considered any further in this study.
+There are two special classes of A-type stars where X-ray emission is commonly observed: (1) Chemically peculiar Ap \citep{1997A&A...323..121B,2011A&A...531A..58R} stars have magnetic fields presumably strong enough to funnel their stellar wind into the equatorial plane where shocks develop, and (2) pre-main sequence stars \citep[Herbig Ae stars, e.g.][]{2004ApJ...614..221S,2020ApJ...888...15S,2007A&A...468..541T,2009A&A...494.1041G}, some of which even show magnetically collimated jets. Both classes are markedly different in magnetic properties and power sources available for X-ray generation and are not considered any further in this study.
 
 In section~\ref{sec:data}, we show the data from those new observations. We discuss the results in section~\ref{sec:discussion} and summarize our findings in section~\ref{sec:summary}.
 
@@ -356,37 +358,29 @@ presence of coordinate uncertainties. The Chandra
 PSF depends on the photon energy, but for
 soft sources as expected here, that region captures well above 95\%
 of the PSF. Without knowing the source spectrum, we cannot fully
-correct for the loss of photons outside the source aperture. For $\tau^3$~Eri, we calculate
-uncertainties on the X-ray flux following a Bayesian approach that
-takes into account the presence of a background following the method of \citet{1991ApJ...374..344K}. The background flux is determined from
+correct for the loss of photons outside the source aperture. 
+The background flux is determined from
 a large region that is apparently source-free; in this way the
 statistical error on the background rate is small.
 
-
-However, there is a subtle difference between the upper end of a
-confidence range and the upper limits for a detection. For those
-sources that are undetected, we calculate the intensity that would be
-required for an unambiguous detection. A source with 7 counts would be
-detected with a significance of at least 99.7\% (corresponding to a
-Gaussian-equivalent ``$3\sigma$'') with a probability of 0.5
-\citep{2010ApJ...719..900K}.
-
+\textbf{For $\tau^3$~Eri, we calculate 90\% credible intervals on the X-ray flux following a Bayesian approach that
+takes into account the presence of a background \citep{2014ApJ...796...24P} as implemented in the CIAO tool \texttt{aprates}. For the three undetected sources, we calculate upper limits following the procedure of \citet{2010ApJ...719..900K}. Deriving an upper limit requires the choice of two parameters. We set the probability of a ``false positive'' (a background fluctuation that is erroneously detected as a source) to be $<0.3$\% corresponding to a
+Gaussian-equivalent of ``$3\sigma$'' and the probability of a ``false negative'' (a real source with a true flux above the given upper limit that is not detected because, due to drawing by chance from a Poisson distribution,  the number of photons in the observation is so low that it is compatible with background) to be $<50$\%.}
 
 
 Table~\ref{tab:detections} lists the detected count rate or upper limit. We convert the count rate into an energy flux, assuming a thermal spectrum. For Chandra/HRC-I,
-1~ct~ks$^{-1}$ corresponds to an X-ray flux about $1.0*10^{-14}$~erg~s$^{-1}$ in the 0.1-5~keV band according to WebPIMMS\footnote{\url{https://heasarc.gsfc.nasa.gov/cgi-bin/Tools/w3pimms/w3pimms.pl}}; the variation around this value is no more than 15\% in the temperature range 0.8-13~MK. Using the distance and bolometric luminosity from \citet{2002ApJ...579..800S}, Table~\ref{tab:detections} also lists $L_X$ and $\log(L_X/L_\mathrm{bol})$.
+1~ct~ks$^{-1}$ corresponds to an X-ray flux about $1.0\times10^{-14}$~erg~s$^{-1}$ in the 0.1-5~keV band according to WebPIMMS\footnote{\url{https://heasarc.gsfc.nasa.gov/cgi-bin/Tools/w3pimms/w3pimms.pl}}; the variation around this value is no more than 15\% in the temperature range 0.8-13~MK. Using the distance and bolometric luminosity from \citet{2002ApJ...579..800S}, Table~\ref{tab:detections} also lists $L_X$ and $\log(L_X/L_\mathrm{bol})$.
 \begin{table*}
-\caption{Limits and fluxes. Ranges given are 90\% confidence regions.\label{tab:detections}}
+\caption{X-ray flux (90\% credible interval) or upper limit (0.3\% false positive and 50\% false negative).\label{tab:detections}}
 \begin{tabular}{ccccccc}
   \hline \hline
-  & \multicolumn{4}{c}{90\% conf} & \multicolumn{2}{c}{99.7\% upper limit}\\
-target & net. counts & net. rate & net. flux & $\log(L_X/L_\mathrm{bol})$ & $L_X$ & $\log(L_X/L_\mathrm{bol})$ \\
- & $\mathrm{ct}$ & $\mathrm{ct\,ks^{-1}}$ & $10^{-15}\mathrm{erg\,s^{-1}\,cm^{-2}}$ &  & $10^{26}\mathrm{erg\,s^{-1}}$ & $\mathrm{}$ \\
+target & net. counts & net. rate & net. flux & $L_X$ & $\log(L_X/L_\mathrm{bol})$\\
+ & $\mathrm{ct}$ & $\mathrm{ct\,ks^{-1}}$ & $10^{-15}\mathrm{erg\,s^{-1}\,cm^{-2}}$ & $10^{26}\mathrm{erg\,s^{-1}}$ \\
 \hline
-$\iota$ Cen & 0.0 ..  2.9 & 0.0 ..  0.3 & 0 ..   3 & $<-8.8$ & $<2.2$ & $<-8.5$ \\
-$\beta$ Leo & 0.0 ..  3.0 & 0.0 ..  0.3 & 0 .. 2.9 & $<-9.1$ & $<0.8$ & $<-8.8$ \\
-$\delta$ Leo & 0.0 ..  4.8 & 0.0 ..  0.5 & 0 .. 4.7 & $< -8.7$ & $2.1$ & $<-8.6$ \\
-$\tau^3$ Eri & 20.5 .. 39.8 & 1.0 ..  2.0 & 10 ..   20 & -7.6 & ... & ... \\
+$\iota$ Cen & 0.0 ..  2.9 & 0.0 ..  0.3 & 0 ..   3 &  $<3.2$ & $<-8.4$ \\
+$\beta$ Leo & 0.0 ..  3.0 & 0.0 ..  0.3 & 0 .. 2.9 &  $<1.0$ & $<-8.7$ \\
+$\delta$ Leo & 0.0 ..  4.8 & 0.0 ..  0.5 & 0 .. 4.7 &  $<2.6$ & $<-8.5$ \\
+$\tau^3$ Eri & 20.5 .. 39.8 & 1.0 ..  2.0 & 10 ..   20 & 6 .. 20 & -7.9 .. -7.4 \\
 \hline
 \end{tabular}
 \end{table*}
@@ -451,37 +445,54 @@ Range of spectral types taken from \citet{2014yCat....1.2023S}, see text for det
 (21)~\cite{2002ApJ...579..800S}.
 \end{table*}
 
-Note that ages given in the table are often based on membership in moving groups. In some cases, membership is under debate and stars could be considerably older if they turn out to be field stars, e.g., see the discussion and references in \citet{2021AJ....161..186D} for $\beta$~Leo. Table~\ref{tab} also gives a range of spectral types taken from the catalog of \citet{2014yCat....1.2023S} (see there for a full list of spectral type references). 
+Note that ages given in the table are often based on membership in moving groups. In some cases, membership is under debate and stars could be considerably older if they turn out to be field stars, e.g., see the discussion and references in \citet{2021AJ....161..186D} for $\beta$~Leo. Table~\ref{tab} also gives a range of spectral types taken from the catalog of \citet[][see there for a full list of spectral type references]{2014yCat....1.2023S}. 
 No single survey covers all stars in Table~\ref{tab} and it is well known that different classification methods lead to discrepant spectral types  \citep[e.g.,][]{1989ApJS...70..623G}.
-Additionally, the surface of the stars in the table often cannot be described by a single spectral type or effective temperature $T_\mathrm{eff}$; e.g.\ \citet{2010A&A...516A..38R} argued that the
+Additionally, the stellar surface of A-type stars is not necessarily well described by a single spectral type or effective temperature $T_\mathrm{eff}$; e.g.\ \citet{2010A&A...516A..38R} argued that the
 spectral classification of HR~8799 of A5 is based on metal lines,
 while the atmospheric temperature might be better characterized by its
 hydrogen lines, which would make it an F0 star
 \citep{1999AJ....118.2993G}, cool enough to generate magnetic activity
 through a convective dynamo. Similarly,  Altair is a very fast rotator, and thus it has a considerable equatorial bulge and consequently lower effective temperature, which might allow the formation of a thin convection zone in that region \citep{2009A&A...497..511R}. Thus, the ordering in Table~\ref{tab} is by approximate spectral type from hot to cool, but the table does not list a unique effective temperature $T_\mathrm{eff}$ for every star. However, for those stars in the sample of \citet{2002ApJ...579..800S} we list the $T_\mathrm{eff}$ given in that work for comparison.
 
-Numbers for the rotational velocity $v \sin i$ are also taken from a compilation \citep{2002A&A...393..897R}, since $\iota$ Cen is not part of the list, we use the value given in \cite{2002ApJ...579..800S}.
+Numbers for the rotational velocity $v \sin i$ are taken from a compilation \citep{2002A&A...393..897R}, except for $\iota$ Cen which is not part of the list, so we use the value from \cite{2002ApJ...579..800S}.
 
-\subsection{Coronal temperatures}
-It is difficult to constrain spectral properties of targets
-that are undetected or have very few photons. We do however know
-something about the later A-type stars in Table~\ref{tab}.  The X-ray
-emission of \object{Altair}, spectral type around A7, shows modest
-variability at the 30\% level due to stellar rotation. The plasma
-temperature is around 1-4~MK \citep{2009A&A...497..511R}. 
-$\beta$~Pic has an earlier spectral type of about A6 and still has weakly detected X-ray
-emission \citep{2005A&A...440..727H,2012ApJ...750...78G} best
-described by collisionally-excited optically thin emission with a temperature around 1.1~MK. The
-spectrum of \object{HR 8799} is also soft with a temperature around
-3~MK \citep{2010A\string&A...516A..38R}. We thus would expect any
-X-ray emission from the other stars in Table~\ref{tab} to have an
-equally soft spectrum. Due to the limited energy resolution of the HRC
-we cannot perform a spectral fit to the new data from
-$\tau^3$~Eri. Fortunately, the energy flux derived from HRC count
-rates or upper limits is insensitive to the plasma temperature for
-cool plasma (Section~\ref{sec:data}), so the fluxes and upper limits
-given in Table~\ref{tab} depend only weakly on the exact plasma
-temperature.
+\subsection{Comparison with earlier and later stars}
+\begin{figure*}
+    \centering
+    \includegraphics[width=\textwidth]{figures/lxlbol.pdf}
+    \caption{\textbf{Comparison of the X-ray luminosity in A-type stars with data for earlier and later spectral types. Early A-try stars are fainter in X-rays than other spectral types.}
+    \label{fig:lxlbol}}
+\end{figure*}
+
+Figure~\ref{fig:lxlbol} compares A stars from table~\ref{tab} with earlier and later-type stars. We use the effective temperature as common axis for all datasets. 
+O and B stars are taken from \citet{1996A&AS..118..481B} who distinguish between detections and upper limits. As it turns out, the upper limits are mostly in the same range of $L_X/L_\mathrm{bol}$ as the detected sources; they might just be undetected because they are further away or observed for a shorter time. To convert the spectral types of all those stars into an effective temperature, we use the compilation in \citet{2013ApJS..208....9P}. While that list is valid only for dwarf stars and a number of stars here have other luminosity classes, the conversion between color and temperature is sufficient for the purpose of this plot.
+
+The X-ray activity in cool stars was studied by \citet{2011ApJ...743...48W}. In cool stars, magnetic activity scales with Rossby number or rotation rate, so there is considerable scatter if shown as a function of effective temperature. Very few stars in the sample are listed with spectral types, so instead we use the V-K color and convert it to a the temperature, again using the table from \citet{2013ApJS..208....9P}.
+
+The fractional X-ray flux drops with increasing temperature for late-type stars. The brightest of the A stars (HR 8799) might follow that same trend, but the others are considerably less luminous in X-rays, indicating a qualitative change in the mechanism that generates the magnetic field and powers the X-ray emission. In particular, the early A stars (most notably Vega) have upper limits on the X-ray flux orders of magnitude below the later type stars. 
+
+Figure~\ref{fig:lxlbol} also shows two stars with effective temperature from \citet{1996A&AS..118..481B} very similar to our hottest stars (Vega and HR~4796A) in effective temperature, but as bright in X-rays as typical later type stars or the brightest B-type stars. However, HR~5413 (HIP 70931) has a low-mass companion ($0.23\;M_\sun$) at 0.6~arcsec resolved with adaptive optics imaging \citep{2014MNRAS.437.1216D} which might well be the X-ray source and for HR~5846 (HIP 77086) a low-mass companion is indicated by a GAIA proper-motion anomaly \citep{2019A&A...623A..72K}. The mass estimate for the companion depends on the orbital separation, but this might well be an X-ray active low-mass star. These two example demonstrate why a study of A-star X-ray activity requires a sample of well studied targets with strict limits on binarity.
+
+%\subsection{Coronal temperatures}
+%It is difficult to constrain spectral properties of targets
+%that are undetected or have very few photons. We do however know
+%something about the later A-type stars in Table~\ref{tab}.  The X-ray
+%emission of \object{Altair}, spectral type around A7, shows modest
+%variability at the 30\% level due to stellar rotation. The plasma
+%temperature is around 1-4~MK \citep{2009A&A...497..511R}. 
+%$\beta$~Pic has an earlier spectral type of about A6 and still has weakly detected X-ray
+%emission \citep{2005A&A...440..727H,2012ApJ...750...78G} best
+%described by collisionally-excited optically thin emission with a temperature around 1.1~MK. The
+%spectrum of \object{HR 8799} is also soft with a temperature around
+%3~MK \citep{2010A\string&A...516A..38R}. We thus would expect any
+%X-ray emission from the other stars in Table~\ref{tab} to have an
+%equally soft spectrum. Due to the limited energy resolution of the HRC
+%we cannot perform a spectral fit to the new data from
+%$\tau^3$~Eri. Fortunately, the energy flux derived from HRC count
+%rates or upper limits is insensitive to the plasma temperature for
+%cool plasma (Section~\ref{sec:data}), so the fluxes and upper limits
+%given in Table~\ref{tab} depend only weakly on the exact plasma
+%temperature.
 
 
 \subsection{Coronal and chromospheric activity}
@@ -501,7 +512,7 @@ The drop in X-ray and UV activity is very sharp; the $L_X$/$L_{bol}$ value drops
 an order of magnitude between $\tau^3$~Eri and
 $\beta$~Leo although they are classified with very similar spectral types in the literature (Table~\ref{tab}) and \citet{2002ApJ...579..800S} see a $\Delta T_\mathrm{eff} < 100$~K.
 
-%\subsection{Debris disks}
+\subsection{A-star  X-ray emission: Debris disks, planets, or spectral type?}
 Debris disks have been found in 
 HR~4796A \citep[e.g.][]{1991ApJ...383L..79J}, Vega
 \citep[e.g.][]{2005ApJ...628..487S}, $\iota$~Cen
@@ -522,7 +533,7 @@ AU distance from the star and are thus unlikely to influence the
 X-ray emission from the star.
 
 The deciding factor for detectability of X-ray and transition region UV seems to be the spectral type or effective temperature. As stars become hotter, the convective envelope shrinks and at some point the dynamo mechanism breaks down. At first sight, one might expect also a correlation with rotational velocities, where faster rotation produces a stronger X-ray activity as is clearly seen in lower mass main-sequence stars \citep{2011ApJ...743...48W}, but Table~\ref{tab} does not bear that out. $\tau^3$~Eri is seen in X-rays, while $\delta$~Leo and $\beta$~Leo are equally fast rotators, but slightly hotter and not detected in X-rays. Of course, the true rotation speed is unknown as long as we do not have the inclination angle $i$, but all three stars rotate close to the mean observed $v \sin i$ for their spectral type and only about a factor of 2-3 below the largest observed values \citep{1995ApJS...99..135A}, so they are unlikely to be observed close to pole-on.
-
+{\color{red} TBD: Mention Rossby, i.e., that the convective turn-over-time may go crazy at the boundary to stars without outer convective regions?}
 
 
 \subsection{How could a dynamo operate in A-type stars?}
@@ -559,11 +570,11 @@ the star is also older (Table~\ref{tab}), which places about the same
 limits on the parameters for the \citet{1995MNRAS.272..528T} model as
 does HR~4796A \citep[See Fig 3 in][]{2014ApJ...786..136D}.
 
-Rapid rotation leads to a bulged and cooler equator in these stars \citep[on Altair][resolved a temperature difference between pole and equator of at least 1000~K]{2007Sci...317..342M}, so one may speculate that some of the stars might be conducive to a convective instability near their equators as has been suggested by \citet{2009A&A...497..511R} for Altair. If so, then a convective dynamo near their equator may sustain significant levels of magnetic activity. Since the X-ray activity is becoming appreciable starting at $\tau^3$~Eri, it suggests that $\tau^3$~Eri and cooler stars are in an appropriate regime to host equatorial convection. 
+Rapid rotation leads to a bulged and cooler equator in these stars \citep[on Altair][resolved a temperature difference between pole and equator of at least 1000~K]{2007Sci...317..342M}, so one may speculate that some of the stars might be conducive to a convective instability near their equators as has been suggested by \citet{2009A&A...497..511R} for Altair. If so, then a convective dynamo near the equator may sustain significant levels of magnetic activity. Since the X-ray activity is becoming appreciable starting at $\tau^3$~Eri, it suggests that $\tau^3$~Eri and cooler stars are in an appropriate regime to host equatorial convection. 
 
 \section{Summary}
 \label{sec:summary}
-We present Chandra/HRC-I observations of four early A stars. $\tau^3$~Eri is clearly detected, while we set sensitive upper limits on the other three targets. With this detection and our new upper limits that are an order of magnitude better than previous \emph{ROSAT} data, there is now a one-to-one correspondence between X-ray emission and C\,{\sc iii} and O\,{\sc vi} lines formed between 50,000 and 300,000 K in the transition region \citep{2002ApJ...579..800S}. This confirms that both regions are powered by the same physical mechanism and that this mechanism essentially switches off between spectral types A3 and A4 (around $T_\mathrm{eff}=8200$~K) as we observe a drop of X-ray luminosity by at least an order of magnitude. Given the age of $\tau^3$~Eri, which we detect, the magnetic field that powers X-ray emission and UV lines needs to be generated continuously. We discuss different dynamo mechanisms that could power the observed X-ray emission, but we are unable to conclusively select any particular one.
+We present Chandra/HRC-I observations of four early A stars. $\tau^3$~Eri is clearly detected, while we set sensitive upper limits on the other three targets. With this detection and our new upper limits that are an order of magnitude better than previous \emph{ROSAT} data, there is now a one-to-one correspondence between X-ray emission and C\,{\sc iii} and O\,{\sc vi} lines formed between 50,000 and 300,000 K in the transition region \citep{2002ApJ...579..800S}. This confirms that both regions are powered by the same physical mechanism and that this mechanism essentially switches off between spectral types A3 and A4 (around $T_\mathrm{eff}=8200$~K) as we observe a drop of X-ray luminosity by at least an order of magnitude. Given the rather old age of $\tau^3$~Eri, which we detect in X-rays, the magnetic field that powers X-ray emission and UV lines needs to be generated continuously. We discuss different dynamo mechanisms that could power the observed X-ray emission, but we are unable to conclusively select any particular one.
 
 \begin{acknowledgements}
 
