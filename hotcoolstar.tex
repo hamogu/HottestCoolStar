@@ -447,12 +447,12 @@ Range of spectral types taken from \citet{2014yCat....1.2023S}, see text for det
 
 Note that ages given in the table are often based on membership in moving groups. In some cases, membership is under debate and stars could be considerably older if they turn out to be field stars, e.g., see the discussion and references in \citet{2021AJ....161..186D} for $\beta$~Leo. Table~\ref{tab} also gives a range of spectral types taken from the catalog of \citet[][see there for a full list of spectral type references]{2014yCat....1.2023S}. 
 No single survey covers all stars in Table~\ref{tab} and it is well known that different classification methods lead to discrepant spectral types  \citep[e.g.,][]{1989ApJS...70..623G}.
-Additionally, the stellar surface of A-type stars is not necessarily well described by a single spectral type or effective temperature $T_\mathrm{eff}$; e.g.\ \citet{2010A&A...516A..38R} argued that the
+Additionally, the stellar surface of A-type stars is not necessarily well described by a single spectral type or temperature; e.g.\ \citet{2010A&A...516A..38R} argued that the
 spectral classification of HR~8799 of A5 is based on metal lines,
 while the atmospheric temperature might be better characterized by its
 hydrogen lines, which would make it an F0 star
 \citep{1999AJ....118.2993G}, cool enough to generate magnetic activity
-through a convective dynamo. Similarly,  Altair is a very fast rotator, and thus it has a considerable equatorial bulge and consequently lower effective temperature, which might allow the formation of a thin convection zone in that region \citep{2009A&A...497..511R}. Thus, the ordering in Table~\ref{tab} is by approximate spectral type from hot to cool, but the table does not list a unique effective temperature $T_\mathrm{eff}$ for every star. However, for those stars in the sample of \citet{2002ApJ...579..800S} we list the $T_\mathrm{eff}$ given in that work for comparison.
+through a convective dynamo. Similarly,  Altair is a very fast rotator, and thus it has a considerable equatorial bulge and consequently a lower temperature on the equator than on the pole, which might allow the formation of a thin convection zone in the equatorial bulge \citep{2009A&A...497..511R}. Thus, the ordering in Table~\ref{tab} is by approximate spectral type from hot to cool, but the table does not list a unique effective temperature $T_\mathrm{eff}$ for every star. However, for those stars in the sample of \citet{2002ApJ...579..800S} we list the $T_\mathrm{eff}$ given in that work for comparison.
 
 Numbers for the rotational velocity $v \sin i$ are taken from a compilation \citep{2002A&A...393..897R}, except for $\iota$ Cen which is not part of the list, so we use the value from \cite{2002ApJ...579..800S}.
 
@@ -460,14 +460,14 @@ Numbers for the rotational velocity $v \sin i$ are taken from a compilation \cit
 \begin{figure*}
     \centering
     \includegraphics[width=\textwidth]{figures/lxlbol.pdf}
-    \caption{\textbf{Comparison of the X-ray luminosity in A-type stars with data for earlier and later spectral types. Early A-try stars are fainter in X-rays than other spectral types.}
+    \caption{\textbf{Comparison of the X-ray luminosity in A-type stars with data for earlier and later spectral types. Early A-type stars are fainter in X-rays than other spectral types.}
     \label{fig:lxlbol}}
 \end{figure*}
 
 Figure~\ref{fig:lxlbol} compares A stars from table~\ref{tab} with earlier and later-type stars. We use the effective temperature as common axis for all datasets. 
 O and B stars are taken from \citet{1996A&AS..118..481B} who distinguish between detections and upper limits. As it turns out, the upper limits are mostly in the same range of $L_X/L_\mathrm{bol}$ as the detected sources; they might just be undetected because they are further away or observed for a shorter time. To convert the spectral types of all those stars into an effective temperature, we use the compilation in \citet{2013ApJS..208....9P}. While that list is valid only for dwarf stars and a number of stars here have other luminosity classes, the conversion between color and temperature is sufficient for the purpose of this plot.
 
-The X-ray activity in cool stars was studied by \citet{2011ApJ...743...48W}. In cool stars, magnetic activity scales with Rossby number or rotation rate, so there is considerable scatter if shown as a function of effective temperature. Very few stars in the sample are listed with spectral types, so instead we use the V-K color and convert it to a the temperature, again using the table from \citet{2013ApJS..208....9P}.
+The X-ray activity in cool stars was studied by \citet{2011ApJ...743...48W}. In cool stars, magnetic activity scales with Rossby number or rotation rate, so there is considerable scatter if shown as a function of effective temperature. Very few stars in the sample are listed with spectral types, so instead we use the V-K color and convert it to a temperature, again using the table from \citet{2013ApJS..208....9P}.
 
 The fractional X-ray flux drops with increasing temperature for late-type stars. The brightest of the A stars (HR 8799) might follow that same trend, but the others are considerably less luminous in X-rays, indicating a qualitative change in the mechanism that generates the magnetic field and powers the X-ray emission. In particular, the early A stars (most notably Vega) have upper limits on the X-ray flux orders of magnitude below the later type stars. 
 
@@ -536,7 +536,7 @@ At first sight, one might expect also a correlation with rotational velocities, 
 \textbf{For most stars in Table~\ref{tab} the rotational period is measured  or can be inferred assuming that the stellar spin axis is aligned with the axis of a debris disk or planetary system. The stars not detected in X-rays are fast rotators, e.g.\ Vega \citep[0.68~d for Vega][]{2015A&A...577A..64B} and HR~4796A,  \citep[0.5~d][]{2014ApJ...786..136D}, as are the stars that are detected in X-rays, e.g.\ Alderamin \citep[0.5~d][]{2006ApJ...637..494V} and Altair \citep[0.4~d][]{2006ApJ...636.1087P}. Thus,
 The deciding factor for detectability of X-ray and transition region UV is not the rotation period, but seems to be the spectral type or photospheric temperature. As stars become hotter, the convective envelope shrinks and at some point the dynamo mechanism breaks down.}
 
-\textbf{For late-type stars with a convective dynamo, X-ray activity can the parameterized by the Rossby number, or the ratio of the rotation period $P_{\rm rot}$ to the convective turnover time $\tau_{\rm conv}$, i.e.
+\textbf{For late-type stars with a convective dynamo, X-ray activity can be parameterized by the Rossby number, or the ratio of the rotation period $P_{\rm rot}$ to the convective turnover time $\tau_{\rm conv}$, i.e.
 \begin{equation}
 {\rm Ro} \sim \frac{P_{\rm rot}}{\tau_{\rm conv}}. \label{eqn:ro}
 \end{equation}
@@ -621,3 +621,22 @@ CIAO \citep{2006SPIE.6270E..1VF}, NumPy \citep{van2011numpy,harris2020array}, Ma
 %\listofchanges
 
 \end{document}
+
+Notes for rotation periods
+It's a pain to find in the literature, but I started. In the end I decided that I don't need a complete list but just examples and thus I did not complete the list below.
+
+star - rotation period (d) - reference
+vega - 0.68 -  2015A&A...577A..64B
+HR 4796A - 0.5  2014ApJ...786..136D  (assuming axis is align is disk axis)
+
+
+tau 3 eri - can't find anything
+beta pic - about 9 h  (P = 9.3 h) 
+  text form the Robrade article
+  found in the pulsation study of Buzasi et al. (2005) and 
+    the periods derived from modeling of interferometric data,
+  for example P = 9.3 h (Domiciano de Souza et al. 2005) and P = 8.9 h (Peterson et al. 2006)
+Altair - 1 / (2.71 +- 0.11 )  [given as frequency in the article, not period] 2006ApJ...636.1087P
+alderamin - 12.11 ± 0.26  / 24 [given in h in article] 2006ApJ...637..494V
+HR7899 - incl 27 deg from planets (2018AJ....156..192W ) and debrid disk (2014ApJ...780...97M),
+    stellar radius stellar radius (1.44 ± 0.06 R ⊙) - 2012ApJ...761...57B, vsini above
