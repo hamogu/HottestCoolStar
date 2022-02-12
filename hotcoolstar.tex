@@ -291,8 +291,8 @@ transition between stars with and without a corona happens within 100~K and that
 
 \citet{2002ApJ...579..800S} also analyzed archival \emph{ROSAT} observations
 and find X-ray emission only for stars below 8200~K. However, the X-ray sensitivity was not very high by modern standards. 
-In this paper, we present new \emph{Chandra}/HRC-I observations that are about an order of magnitude more sensitive for the stars in the \citet{2002ApJ...579..800S} sample \textbf{that previously only had \emph{ROSAT} data. 
-To avoid the problem of unresolved companions, we limit} the new observations to well-studied A stars within 30~pc
+In this paper, we present new \emph{Chandra}/HRC-I observations that are about an order of magnitude more sensitive for the stars in the \citet{2002ApJ...579..800S} sample that previously only had \emph{ROSAT} data. 
+To avoid the problem of unresolved companions, we limit the new observations to well-studied A stars within 30~pc
 where spectroscopy and recent planet searches with the radial-velocity method \citep[e.g.][]{2021AJ....161..157H}, direct imaging \citep[e.g.][]{2013ApJ...776....4N,2017AJ....154..245M}, and the study of anomalous GAIA proper motion \citep{2019A&A...623A..72K} essentially rule out the presence of a late-type stellar companion, i.e., our target sample comprises only bona fide single stars.
 \citet{2008ApJ...685..478N} extend the list of UV observations and do find  C\,{\sc iii} and O\,{\sc vi} in hotter sources, however, in those cases, the emission is better explained by late-type companions.
 
@@ -363,9 +363,9 @@ The background flux is determined from
 a large region that is apparently source-free; in this way the
 statistical error on the background rate is small.
 
-\textbf{For $\tau^3$~Eri, we calculate 90\% credible intervals on the X-ray flux following a Bayesian approach that
+For $\tau^3$~Eri, we calculate 90\% credible intervals on the X-ray flux following a Bayesian approach that
 takes into account the presence of a background \citep{2014ApJ...796...24P} as implemented in the CIAO tool \texttt{aprates}. For the three undetected sources, we calculate upper limits following the procedure of \citet{2010ApJ...719..900K}. Deriving an upper limit requires the choice of two parameters. We set the probability of a ``false positive'' (a background fluctuation that is erroneously detected as a source) to be $<0.3$\% corresponding to a
-Gaussian-equivalent of ``$3\sigma$'' and the probability of a ``false negative'' (a real source with a true flux above the given upper limit that is not detected because, due to drawing by chance from a Poisson distribution,  the number of photons in the observation is so low that it is compatible with background) to be $<50$\%.}
+Gaussian-equivalent of ``$3\sigma$'' and the probability of a ``false negative'' (a real source with a true flux above the given upper limit that is not detected because, due to drawing by chance from a Poisson distribution,  the number of photons in the observation is so low that it is compatible with background) to be $<50$\%.
 
 
 Table~\ref{tab:detections} lists the detected count rate or upper limit. We convert the count rate into an energy flux, assuming a thermal spectrum. For Chandra/HRC-I,
@@ -460,14 +460,15 @@ Numbers for the rotational velocity $v \sin i$ are taken from a compilation \cit
 \begin{figure*}
     \centering
     \includegraphics[width=\textwidth]{figures/lxlbol.pdf}
-    \caption{\textbf{Comparison of the X-ray luminosity in A-type stars with data for earlier and later spectral types. Early A-type stars are fainter in X-rays than other spectral types.}
-    \label{fig:lxlbol}}
+    \caption{Comparison of the X-ray luminosity in A-type stars with data for earlier and later spectral types. Early A-type stars are fainter in X-rays than other spectral types. Effective temperatures for A-type stars listed in \citet{2002ApJ...579..800S} are given as exact number; for Altair the error bar represents the range of temperatures between the pole and the equator \citep{2007Sci...317..342M} and for HR~8799 and $\beta$~Pic the range of spectral types from \citet{2014yCat....1.2023S}.
+     Note that the ROSAT catalog compiled by \citet{Freund} does not resolve most binaries and thus especially the data points listed in the range $T_\mathrm{eff}=7500-10000$~K represent the $L_\mathrm{bol}$ from an A-star primary and the $L_X$ from an unresolved late-type companion. This highlights the importance of carefully selecting a sample of single A stars as done in this work (black points).} \label{fig:lxlbol}
 \end{figure*}
 
 Figure~\ref{fig:lxlbol} compares A stars from table~\ref{tab} with earlier and later-type stars. We use the effective temperature as common axis for all datasets. 
 O and B stars are taken from \citet{1996A&AS..118..481B} who distinguish between detections and upper limits. As it turns out, the upper limits are mostly in the same range of $L_X/L_\mathrm{bol}$ as the detected sources; they might just be undetected because they are further away or observed for a shorter time. To convert the spectral types of all those stars into an effective temperature, we use the compilation in \citet{2013ApJS..208....9P}. While that list is valid only for dwarf stars and a number of stars here have other luminosity classes, the conversion between color and temperature is sufficient for the purpose of this plot.
 
-The X-ray activity in cool stars was studied by \citet{2011ApJ...743...48W}. In cool stars, magnetic activity scales with Rossby number or rotation rate, so there is considerable scatter if shown as a function of effective temperature. Very few stars in the sample are listed with spectral types, so instead we use the V-K color and convert it to a temperature, again using the table from \citet{2013ApJS..208....9P}.
+The X-ray activity in cool stars was studied by \citet{2011ApJ...743...48W}. In cool stars, magnetic activity scales with Rossby number or rotation rate, so there is considerable scatter if shown as a function of effective temperature. Very few stars in the sample are listed with spectral types, so instead we use the V-K color and convert it to a temperature, again using the table from \citet{2013ApJS..208....9P}. 
+We also compare the new A star data with the stellar sources from the ROSAT survey identified by \citet{Freund} who matched ROSAT and Gaia sources using a Bayesian method to select bona fide stellar X-ray sources. While their formal sample reliability is above 90\% (i.e.\ at least 9 out of 10 sources are correctly identified as stellar), almost all companions remain unresolved in X-rays. Therefore, in many cases the ROSAT detected X-ray emission is not from the primary seen by Gaia, especially for A stars, which are very often found in binary/multiple systems. This highlights that for detailed studies of A-star stellar activity, as we do in this work, it is important to select the sample carefully.
 
 The fractional X-ray flux drops with increasing temperature for late-type stars. The brightest of the A stars (HR 8799) might follow that same trend, but the others are considerably less luminous in X-rays, indicating a qualitative change in the mechanism that generates the magnetic field and powers the X-ray emission. In particular, the early A stars (most notably Vega) have upper limits on the X-ray flux orders of magnitude below the later type stars. 
 
@@ -533,16 +534,16 @@ AU distance from the star and are thus unlikely to influence the
 X-ray emission from the star.
 
 At first sight, one might expect also a correlation with rotational velocities, where faster rotation produces a stronger X-ray activity as is clearly seen in lower mass main-sequence stars \citep{2011ApJ...743...48W}, but Table~\ref{tab} does not bear that out. $\tau^3$~Eri is seen in X-rays, while $\delta$~Leo and $\beta$~Leo are equally fast rotators, but slightly hotter and not detected in X-rays. 
-\textbf{For most stars in Table~\ref{tab} the rotational period is measured  or can be inferred assuming that the stellar spin axis is aligned with the axis of a debris disk or planetary system. The stars not detected in X-rays are fast rotators, e.g.\ Vega \citep[0.68~d for Vega][]{2015A&A...577A..64B} and HR~4796A,  \citep[0.5~d][]{2014ApJ...786..136D}, as are the stars that are detected in X-rays, e.g.\ Alderamin \citep[0.5~d][]{2006ApJ...637..494V} and Altair \citep[0.4~d][]{2006ApJ...636.1087P}. Thus,
-The deciding factor for detectability of X-ray and transition region UV is not the rotation period, but seems to be the spectral type or photospheric temperature. As stars become hotter, the convective envelope shrinks and at some point the dynamo mechanism breaks down.}
+For most stars in Table~\ref{tab} the rotational period is measured  or can be inferred assuming that the stellar spin axis is aligned with the axis of a debris disk or planetary system. The stars not detected in X-rays are fast rotators, e.g.\ Vega \citep[0.68~d for Vega][]{2015A&A...577A..64B} and HR~4796A,  \citep[0.5~d][]{2014ApJ...786..136D}, as are the stars that are detected in X-rays, e.g.\ Alderamin \citep[0.5~d][]{2006ApJ...637..494V} and Altair \citep[0.4~d][]{2006ApJ...636.1087P}. Thus,
+The deciding factor for detectability of X-ray and transition region UV is not the rotation period, but seems to be the spectral type or photospheric temperature. As stars become hotter, the convective envelope shrinks and at some point the dynamo mechanism breaks down.
 
-\textbf{For late-type stars with a convective dynamo, X-ray activity can be parameterized by the Rossby number, or the ratio of the rotation period $P_{\rm rot}$ to the convective turnover time $\tau_{\rm conv}$, i.e.
+For late-type stars with a convective dynamo, X-ray activity can be parameterized by the Rossby number, or the ratio of the rotation period $P_{\rm rot}$ to the convective turnover time $\tau_{\rm conv}$, i.e.
 \begin{equation}
 {\rm Ro} \sim \frac{P_{\rm rot}}{\tau_{\rm conv}}. \label{eqn:ro}
 \end{equation}
-A higher Rossby number is associated with lower X-ray activity across pre-main sequence, main sequence, and giant stars \citep{Preibisch+2005, Pizzolato+2003, Gondoin+2005,2011ApJ...743...48W} and established in stellar dynamo models \citep[e.g.][]{Brandenburg+1998}.}
+A higher Rossby number is associated with lower X-ray activity across pre-main sequence, main sequence, and giant stars \citep{Preibisch+2005, Pizzolato+2003, Gondoin+2005,2011ApJ...743...48W} and established in stellar dynamo models \citep[e.g.][]{Brandenburg+1998}.
 
-\textbf{Given that many stars in Table~\ref{tab} have rotation periods less than a day, the decline of the X-ray emission, and thus (in the scheme of a solar-like dynamo) increasing Rossby number, then points to a rapidly declining $\tau_{\rm conv}$ with increasing photospheric temperature.} 
+Given that many stars in Table~\ref{tab} have rotation periods less than a day, the decline of the X-ray emission, and thus (in the scheme of a solar-like dynamo) increasing Rossby number, then points to a rapidly declining $\tau_{\rm conv}$ with increasing photospheric temperature. 
 
 
 \subsection{How could a dynamo operate in A-type stars?}
