@@ -1,0 +1,34 @@
+Potential data sources for C III 977 Å
+(×10-7)	O VI 1032 Å
+(×10-7)	O VI 1037 Å
+(×10-7)	C III 1175 Å
+(×10-7)	Si III 1206 Å
+(×10-7)	Lyα 1215 Å
+
+for those targets not listed in Simon et al 2002: 
+HR 4796A
+Vega
+beta Pic
+Altair
+Alderamin
+HR 8799
+
+StarCAT - https://casa.colorado.edu/~ayres/StarCAT/
+
+HR4796A - >1463 Ang
+vega - no
+beta Pic 1463 Ang
+Altair - no
+Alderamin - no
+HR 8799
+
+alp-Lyr = Vega in https://casa.colorado.edu/~ayres/ASTRAL/
+
+
+
+https://ui.adsabs.harvard.edu/abs/2011A%26A...526A..91F/abstract
+https://ui.adsabs.harvard.edu/abs/2007ApJ...657L..57C/abstract
+https://ui.adsabs.harvard.edu/abs/2004A%26A...414.1121W/citations
+https://ui.adsabs.harvard.edu/abs/2018A%26A...618A..48M/graphics
+https://ui.adsabs.harvard.edu/abs/1991A%26A...252..203R/abstract
+https://ui.adsabs.harvard.edu/abs/1992A%26A...258..432S/abstract

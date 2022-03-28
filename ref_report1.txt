@@ -1,0 +1,57 @@
+01-Mar-2022
+
+Dr. Hans Moritz Guenther
+MIT
+Kavli Institute for Astrophysics and Space Research
+77 Massachusetts Avenue
+NE83-569
+Cambridge, MA 02139
+
+
+Title: How hot can cool stars be?
+
+Dear Dr. Guenther,
+
+I have received the referee's report on your above submission to the AAS Journals and appended it below. As you will see, the referee thinks that your manuscript is interesting and that it will merit publication once you have addressed the issues raised in the report.
+
+When you submit a revised manuscript, please include a detailed cover letter containing the (mandatory) listing of the changes you've made to the text and your responses to the report. You may upload the list of changes as a file or add it to the text box.
+
+Click the link below to upload your revised manuscript;
+https://aas.msubmit.net/cgi-bin/main.plex?el=A5KO3Vj5A7prm2J4A9ftdg2NoPc5hu7wjlzdl3MN8QZ
+Alternatively, you may also log into your account at the EJ Press web site, https://apj.msubmit.net. Please use your user's login name: hamogu. You can then ask for a new password via the Unknown/Forgotten Password link if you have forgotten your password.
+
+Reviewers find it helpful if the changes in the text of the manuscript are easily distinguishable from the rest of the text. Therefore we ask you to print changes in bold face. The highlighting can be removed easily after the review.
+
+The AAS Journals has adopted a policy that manuscript files become inactive, and are considered to have been withdrawn, six months after the most recent referee's report goes to the authors, provided a revised version has not been received by that time.
+
+If you have any questions, feel free to contact me.
+
+Sincerely,
+Allen W. Shafter
+AAS Scientific Editor
+San Diego State University
+Astronomy Department
+allen.shafter@aasjournals.org
+----------------------------------------------------------------------
+Referee Report
+Reviewer:
+This work uses CHANDRA/HRC-1 observations to refine X-ray luminosity measurements of four early A type stars, reducing the upper limits for three of the stars by an order of magnitude. With these new measurements, there is now evidence of simultaneous occurrence/non-occurrence of coronal and transition region emission (via x-rays and C III + O VI line flux), confirming that the corona and transition region are powered by the same physical mechanism. There is also a reported sudden drop in X-ray emission that happens over a very narrow range of effective temperatures (<100 K) within the A spectral type.
+
+While the paper states that there is now this one-to-one correspondence between X-ray emission and C III and O VI lines for the full set of stars, there is very minimal discussion about it. Additional columns in Table 3 with the line fluxes for each star should be added. Further, any specific trends that are found with these new CHANDRA measurements should be discussed and a plot with this information should be shown.
+
+The other main conclusion drawn from this work revolves around the detection of X-ray emission from an A star with Teff > 8200 K. Since the result is dependent on this parameter, there needs to be a more thorough look at what the actual temperatures of these stars are. Specifically for this edge-case star, tau3 Eri, the referenced literature value gives an effective temperature of 8210 K, however, there are more recent literature values of lower temperatures (7855-8091 K) that would alter the conclusions drawn from this work (https://ui.adsabs.harvard.edu/abs/2016A%26A...591A.118S/abstract). This should be addressed in the text (e.g. lines 170 and 234) and the full range of possible Teff values should be listed in Table 3 and plotted as error bars in Figure 2.
+
+This work and its conclusions are interesting and merits publication in AJ after all comments have been addressed.
+
+Other Comments:
+
+-The authors should strongly consider a new title. The current one is confusing and does not adequately describe the work presented in the manuscript.
+
+-Table 3 is missing error margins on the Teff, vsini, and Lx measurements. Since all stars in Table 3 are plotted in Figure 2 against Teff, please also include those temperature ranges in the table.
+
+-Line 31: please quantify what is meant by "most." What is the approximate percentage of the sample?
+
+-Line 40 / 232: the reference for the formation temperatures of C III and O VI should be moved to the first mention of these values.
+
+-Line 114: typo "here to similar" -> "here to be similar"
+
